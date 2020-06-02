@@ -8,7 +8,6 @@ import TodoListStats from "./todoListStats"
 const TodoList = () => {
   // before selectors const todoList = useRecoilValue(todoListState)
   const todoList = useRecoilValue(filteredTodoListState)
-  console.log(`todoList:${JSON.stringify(todoList, null, 2)}`)
   return (
     <>
       <TodoListStats />
