@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d4f56a5a-023a-418c-acbf-3a80b94d2ccb/deploy-status)](https://app.netlify.com/sites/gatsby-with-recoil/deploys)
+
 # What this is
 
 This is a simple implementation of the [Recoil](https://recoiljs.org/) state management package in a SSR (server side rendering) mode. 
