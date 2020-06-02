@@ -1,12 +1,12 @@
 import React from "react"
-import { RecoilRoot } from "recoil"
-import TodoList from "../components/TodoList"
+//import Loadable from "@loadable/component"
+import TodoList from '../components/todoList'
 
-export default () => (
+//const LoadableRecoil = Loadable(() => import("../components/todoList"))
+const IndexPage = () => (
   <div>
-    <h1 style={{textAlign:'center'}}>Recoil being used with Gatsby</h1>
-    <RecoilRoot>
-      <TodoList />
-    </RecoilRoot>
+    <h1 style={{ textAlign: "center" }}>Recoil being used with Gatsby</h1>
+    <TodoList />
   </div>
 )
+export default IndexPage
